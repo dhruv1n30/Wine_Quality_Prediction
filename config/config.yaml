@@ -1,0 +1,7 @@
+artifactes_root : artifactes
+
+data_ingestion:
+  root_dir : artifactes/data_ingestion
+  source_URL : 'https://github.com/dhruv1n30/Data/raw/refs/heads/main/winequality-red.zip'
+  local_data_file: artifactes/data_ingestion/data.zip
+  unzip_dir: artifactes/data_ingestion/
