@@ -1,18 +1,17 @@
 # from setuptools import setup, find_packages
 import setuptools
 
-
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 
-__version__ = '0.0.0'
+__version__ = "0.0.0"
 
-AUTHOR_NAME = 'Dhruvin Vachhani'
+AUTHOR_NAME = "Dhruvin Vachhani"
 SRC_REPO = "mlProject"
-AUTHOR_EMAIL = 'dhruvinvachhani25@gmail.com'
-AUTHOR_USER_NAME = 'dhruv1n30'
-REPO_NAME = 'Wine_Quality_Prediction'
+AUTHOR_EMAIL = "dhruvinvachhani25@gmail.com"
+AUTHOR_USER_NAME = "dhruv1n30"
+REPO_NAME = "Wine_Quality_Prediction"
 
 
 setuptools.setup(
@@ -29,4 +28,3 @@ setuptools.setup(
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
 )
-

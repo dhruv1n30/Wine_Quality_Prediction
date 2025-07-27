@@ -1,7 +1,7 @@
-from mlProject.config.configuration import ConfigurationManager
-from mlProject.components.model_evaluation import ModelEvaluation
 from loguru import logger
 
+from mlProject.components.model_evaluation import ModelEvaluation
+from mlProject.config.configuration import ConfigurationManager
 
 STAGE_NAME = "Model evaluation stage"
 
@@ -17,8 +17,7 @@ class ModelEvaluationTrainingPipeline:
         model_evaluation_config.save_results()
 
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     try:
         logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
         obj = ModelEvaluationTrainingPipeline()

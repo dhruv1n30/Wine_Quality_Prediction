@@ -1,9 +1,10 @@
-from mlProject.config.configuration import ConfigurationManager
-from mlProject.components.data_validation import DataValiadtion
 from loguru import logger
 
+from mlProject.components.data_validation import DataValiadtion
+from mlProject.config.configuration import ConfigurationManager
 
 STAGE_NAME = "Data Validation stage"
+
 
 class DataValidationTrainingPipeline:
     def __init__(self):
@@ -16,7 +17,7 @@ class DataValidationTrainingPipeline:
         data_validation.validate_all_columns()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     try:
         logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
         obj = DataValidationTrainingPipeline()
