@@ -1,4 +1,4 @@
-# Wine_Quality-_Prediction
+# Wine_Quality_Prediction
 
 <!-- update config.yaml
 update schema.yaml
