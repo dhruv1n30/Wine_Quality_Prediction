@@ -10,8 +10,14 @@ update the pipeline
 update the main.py
 update the app.py -->
 
+## How to run
 
+## Create virtual Environment using conda command
 
 1. `conda create -n wine python=3.11 -y`
 2. `conda activate wine`
 3. `pip install -r requirements.txt`
+
+
+
+
